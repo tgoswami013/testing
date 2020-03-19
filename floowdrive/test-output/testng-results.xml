@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-19T15:03:52 IST" name="Default suite" finished-at="2020-03-19T15:04:14 IST" duration-ms="21375">
+  <suite started-at="2020-03-19T15:12:51 IST" name="suite of suites" finished-at="2020-03-19T15:13:10 IST" duration-ms="18975">
     <groups>
     </groups>
-    <test started-at="2020-03-19T15:03:52 IST" name="Default test" finished-at="2020-03-19T15:04:14 IST" duration-ms="21375">
+    <test started-at="2020-03-19T15:12:51 IST" name="Test" finished-at="2020-03-19T15:13:10 IST" duration-ms="18975">
       <class name="com.turnkey.floowdrive.testcases.Login">
-        <test-method is-config="true" signature="befo()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@61dd025]" started-at="2020-03-19T15:03:52 IST" name="befo" finished-at="2020-03-19T15:04:04 IST" duration-ms="11280" status="PASS">
+        <test-method is-config="true" signature="befo()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@77167fb7]" started-at="2020-03-19T15:12:51 IST" name="befo" finished-at="2020-03-19T15:13:00 IST" duration-ms="9144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befo -->
-        <test-method is-config="true" signature="befMethod()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@61dd025]" started-at="2020-03-19T15:04:04 IST" name="befMethod" finished-at="2020-03-19T15:04:04 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="befMethod()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@77167fb7]" started-at="2020-03-19T15:13:00 IST" name="befMethod" finished-at="2020-03-19T15:13:01 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method signature="login()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@61dd025]" started-at="2020-03-19T15:04:04 IST" name="login" finished-at="2020-03-19T15:04:14 IST" duration-ms="9863" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.turnkey.floowdrive.testcases.Login@77167fb7]" started-at="2020-03-19T15:13:01 IST" name="Login" finished-at="2020-03-19T15:13:10 IST" duration-ms="9619" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
+        </test-method> <!-- Login -->
       </class> <!-- com.turnkey.floowdrive.testcases.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- suite of suites -->
 </testng-results>
