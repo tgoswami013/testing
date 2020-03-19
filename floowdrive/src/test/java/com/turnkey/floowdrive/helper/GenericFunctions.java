@@ -15,8 +15,6 @@ public class GenericFunctions extends Base
 {
 	public void scrollBy(AppiumDriver driver, int x, int y) throws InterruptedException
 	{
-		WebDriverWait wait=new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.thefloow.thefloowltd.floowdrive.app:id/register_email_address")));
 		TouchAction action = new TouchAction(driver);	
 		Dimension size = driver.manage().window().getSize();	
 		int endX = (size.width * x)/100;

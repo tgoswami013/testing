@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite of suites">
+
+	
+	<test name="Test" enabled="true">
+  		<classes>
+    		<class name="com.turnkey.floowdrive.testcases.Login">
+    		<methods>
+ 
+        			<include name="Login" />  
+
+        		</methods>
+        	</class>
+         </classes> 
+	</test>
+</suite>	
